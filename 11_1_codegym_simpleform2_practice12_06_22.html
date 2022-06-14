@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- [Bài tập] Tạo form đơn giản -->
+    <meta charset="utf-8">
+    <title><b>Tạo form đơn giản_12_06_22</b></title>
+  </head>
+  <body>
+    
+    <form action="" name = "Thực hành tạo form_13_06_22">
+    <!-- Tạo tiêu đề form -->
+    <p style="text-transform:uppercase;
+              background-color: #3D7681;
+              color: white;
+              width: 430px;
+    ">
+    <b>Thực hành tạo form_13_06_22</b></p>
+      <!-- tạo các trường input -->
+      <fieldset style="width:400px">
+      <legend>Personal info</legend>
+      <legend>
+        <label for="fname" style="color: #3158B2 ;
+                                  font-weight: bold;
+                                  font-size: large;
+        ">Họ và tên</label>
+        <input type="text" name = "fname" placeholder="Họ và tên" size="25px" width="400" height="100" style="border: 1px solid;"><br><br>
+      </legend>
+    
+      <legend>
+        <label for="email">Email</label>
+        <input type="email" name = "email" placeholder="Email@gmail.com"><br><br>
+      </legend> 
+
+      <legend>
+        <label for="dateofbirth">Năm sinh:</label>
+        <input type="date" name = "dateofbirth" placeholder="dd/mm/yyyy"><br><br>
+      </legend>
+
+      <legend>
+        <b>Sở thích</b><br> <br/>
+        <input type="checkbox" name = "favor"><span style="color: #FFC300 ;font-weight: bold;size: 20px;font-size: large;">Xem đá bóng</span>
+        <input type="checkbox" name = "favor"><span style="color: #FFC300 ;font-weight: bold;size: 20px;font-size: large;">Du lịch</span>
+        <input type="checkbox" name = "favor"><span style="color: #FFC300 ;font-weight: bold;size: 20px;font-size: large;">Đọc sách</span><br><br/>
+        <input type="checkbox" name = "favor"><span style="color: #FFC300 ;font-weight: bold;size: 20px;font-size: large;">Lướt web</span>
+        <input type="checkbox" name = "favor"><span style="color: #FFC300 ;font-weight: bold;size: 20px;font-size: large;">Chơi Game</span>
+        <input type="checkbox" name = "favor"><span style="color: #FFC300 ;font-weight: bold;size: 20px;font-size: large;">Điện ảnh</span><br><br>
+        <input type="checkbox" name = "favor"><span style="color: #FFC300 ;font-weight: bold;size: 20px;font-size: large;">Du lịch</span>
+
+      </legend><br><br>
+
+      <!-- tạo thông tin input địa chỉ -->
+      <legend>
+        <style>
+          label textarea{
+            vertical-align: middle;
+          }
+        </style>
+    
+        <label>Địa chỉ: <textarea cols="30" rows="10" placeholder="Nhập địa chỉ"></textarea>
+        
+        </label><br><br/>
+      </legend>
+
+      <input type="submit" value="Gửi thông tin">
+      <input type="reset" value="Nhập lại">
+    </fieldset>  
+    </form>
+      
+
+
+  </body>
+
+
+</html>
